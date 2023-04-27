@@ -37,6 +37,11 @@ img{
 #admin a:hover {
     background-color: orange;
     color: #fff;
-    box-shadow: none;
-    border: 1px solid black;
+}
+
+#admin form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
 }

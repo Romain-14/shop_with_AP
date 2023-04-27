@@ -6,7 +6,7 @@ export default (req, res, next) => {
             console.log("error during the process of retrieving file", err);
             return;
         }
-        res.locals.datas = JSON.parse(data);
+        res.locals.products = JSON.parse(data);
         next();
     });
 };

@@ -6,5 +6,7 @@ export const shopView = (req, res) => {
 };
 
 export const productView = (req, res) => {
-    res.status(200).render("layout", { template: "shop/product" });
+    const [product] = res.locals.products.filter(p => p.id === req.params.id);
+    
+    res.status(200).render("layout", { template: "shop/product", product });
 };

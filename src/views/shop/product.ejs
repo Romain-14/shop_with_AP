@@ -1,3 +1,13 @@
 <main>
     <h2>PRODUCT PAGE</h2>
+
+    <article>
+        <h3><%= product.title %></h3>
+
+        <img src="/img/<%= product.photo %>" alt="" />
+        <p><%= product.description %></p>
+        <p><%= product.price %>€</p>
+        <p>sold by :<%= product.seller %></p>
+        <p>in category : <%= product.category %></p>
+    </article>
 </main>

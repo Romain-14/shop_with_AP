@@ -6,7 +6,7 @@
         "seller": "Sandrine",
         "price": 34.99,
         "category": "vêtement",
-        "url_img": "no-picture.jpg"
+        "photo": "no-picture.jpg"
     },
     {
         "id": "a9352343-53fe-472a-adb1-cb6009d5f490",
@@ -15,7 +15,7 @@
         "seller": "Emile",
         "price": 49.99,
         "category": "multimédia",
-        "url_img": "no-picture.jpg"
+        "photo": "no-picture.jpg"
     },
     {
         "id": "a942343-53fe-472a-adb1-cb6009gfd490",
@@ -24,6 +24,15 @@
         "seller": "Paulo",
         "price": 4.99,
         "category": "animaux",
-        "url_img": "no-picture.jpg"
+        "photo": "no-picture.jpg"
+    },
+    {
+        "id": "37d2bcd7-c72d-4586-8160-57a2ce0104b2",
+        "title": "Table ronde",
+        "description": "utilisé par le roi arthur",
+        "seller": "Godefroy de montmirail",
+        "price": "999999",
+        "category": "mobilier",
+        "photo": "9897acd305177b642e592c200.jpg"
     }
 ]
